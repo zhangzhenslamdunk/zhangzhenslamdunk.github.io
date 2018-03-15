@@ -10,15 +10,15 @@
 <p><font size="8">Let's use this embedded chatbot to know more about</font></p>
 <p><font color="red"  size="12">Singapore Data Science Consortium</font></p>
 
-<div id="d1" ondblclick="max()" style="visibility:visible">Double Click to See Our Chatbot</div>
-<iframe  id="i1"  onBlur="min()"
+<div id="d1" ondblclick="max1()" style="visibility:visible">Double Double Click -> English Chatbot</div>
+<iframe  id="i1"  onBlur="min1()"
     width="350"
     height="430"
     src="https://console.dialogflow.com/api-client/demo/embedded/2c7456b4-10fe-4207-9219-ad9289dcdda6">
 </iframe>
    
-	
-<iframe
+<div id="d2" ondblclick="max2()" style="visibility:visible">Double Double Click -> Chinese Chatbot</div>
+<iframe  id="i2"  onBlur="min2()"
     width="350"
     height="430"
     src="https://console.dialogflow.com/api-client/demo/embedded/009a1866-2b50-435c-bd06-c8374a894dd0">
@@ -29,16 +29,30 @@
     
 <SCRIPT>
 iHeight = document.getElementById("i1").height
-function min()
+function min1()
 {
 	document.getElementById("i1").height="0"
 	document.getElementById("d1").style.visibility = "visible"
 }
-function max()
+function max1()
 {
 	document.getElementById("d1").style.visibility = "hidden"
 	document.getElementById("i1").height=iHeight
 	document.getElementById("i1").focus();
+}	
+min()
+	
+iHeight = document.getElementById("i2").height
+function min2()
+{
+	document.getElementById("i2").height="0"
+	document.getElementById("d2").style.visibility = "visible"
+}
+function max2()
+{
+	document.getElementById("d2").style.visibility = "hidden"
+	document.getElementById("i2").height=iHeight
+	document.getElementById("i2").focus();
 }	
 min()
 </SCRIPT>
