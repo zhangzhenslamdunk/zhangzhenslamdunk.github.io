@@ -232,9 +232,11 @@ min0()
 function toggle0() {
     var x = document.getElementById("i0");
     if (x.style.display === "none") {
-        x.style.display = "block";
+	    max0();
+        //x.style.display = "block";
     } else {
-        x.style.display = "none";
+	     min0();
+        //x.style.display = "none";
     }
 }
 </script>
