@@ -241,9 +241,14 @@ function toggle0() {
     if (x.style.display == "block") {
 	//   min0();
        x.style.display = "none";
+	document.getElementById("i0").height="0"
+	document.getElementById("d0").style.visibility = "visible"
     } else {
 	//    max0();
        x.style.display = "block";
+	document.getElementById("d0").style.visibility = "visible"
+	document.getElementById("i0").height=iHeight
+	document.getElementById("i0").focus();
     }
 }
 </script>
