@@ -4,13 +4,7 @@
  */
  
 #botplatformboxbar, #botplatformchatboxbar {
-	/*width: 64px;
-	height: 64px;
-	padding: 0px;*/
-	background-color: transparent;
-	/*background-size: 64px;*/
-	/*background-image: url("../images/blue_round_button128.png");*/
-	/*background-image: url("https://github.com/zhangzhenslamdunk/zhangzhenslamdunk.github.io/blob/master/SDSC.png");*/
+
 	background-image: url("SDSC.png");
 }
 
@@ -29,8 +23,7 @@
 #botplatformchatboxbarmax2 {
 	left: 7px;
 	bottom: 7px;
-	/*height: 50px;
-	width: 50px;*/
+
 	position: absolute;
 }
 
@@ -41,8 +34,7 @@
 #botplatformboxbarmax2 {
 	left: 7px;
 	bottom: 7px;
-	/*height: 50px;
-	width: 50px;*/
+
 	position: absolute;
 }
 
