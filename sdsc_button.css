@@ -6,7 +6,7 @@
 #botplatformboxbar, #botplatformchatboxbar {
 	width: 164px;
 	height: 164px;
-	padding: 0px;
+	padding: 10px;
 	background-color: transparent;
 	background-size: 164px;
 	/*background-image: url("../images/blue_round_button128.png");*/
