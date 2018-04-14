@@ -4,9 +4,9 @@
  */
  
 #botplatformboxbar, #botplatformchatboxbar {
-	width: 64px;
+	/*width: 64px;
 	height: 64px;
-	padding: 0px;
+	padding: 0px;*/
 	background-color: transparent;
 	background-size: 64px;
 	/*background-image: url("../images/blue_round_button128.png");*/
