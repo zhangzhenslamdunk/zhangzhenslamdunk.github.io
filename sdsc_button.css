@@ -29,8 +29,8 @@
 #botplatformchatboxbarmax2 {
 	left: 7px;
 	bottom: 7px;
-	height: 50px;
-	width: 50px;
+	/*height: 50px;
+	width: 50px;*/
 	position: absolute;
 }
 
@@ -41,8 +41,8 @@
 #botplatformboxbarmax2 {
 	left: 7px;
 	bottom: 7px;
-	height: 50px;
-	width: 50px;
+	/*height: 50px;
+	width: 50px;*/
 	position: absolute;
 }
 
