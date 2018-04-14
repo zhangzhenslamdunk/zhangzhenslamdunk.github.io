@@ -4,7 +4,9 @@
  */
  
 #botplatformboxbar, #botplatformchatboxbar {
-
+	width: 164px;
+	height: 164px;
+	padding: 0px;
 	background-color: transparent;
 	background-size: 64px;
 	/*background-image: url("../images/blue_round_button128.png");*/
@@ -27,7 +29,8 @@
 #botplatformchatboxbarmax2 {
 	left: 7px;
 	bottom: 7px;
-
+	height: 50px;
+	width: 50px;
 	position: absolute;
 }
 
@@ -38,7 +41,8 @@
 #botplatformboxbarmax2 {
 	left: 7px;
 	bottom: 7px;
-
+	height: 50px;
+	width: 50px;
 	position: absolute;
 }
 
