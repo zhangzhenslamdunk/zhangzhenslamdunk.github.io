@@ -16,7 +16,6 @@
 	background-image: url("SDSC.png");
 	
 }
-
 #botplatformchatboxbar2 {
 	display: none;
 }
@@ -29,11 +28,22 @@
 	height: inherit;
 }
 
+#botplatformchatboxbarmax2 {
+	left: 7px;
+	bottom: 7px;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+}
 
 #botplatformboxbar2 {
 	display: none;
 }
 
-
-
-
+#botplatformboxbarmax2 {
+	left: 7px;
+	bottom: 7px;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+}
