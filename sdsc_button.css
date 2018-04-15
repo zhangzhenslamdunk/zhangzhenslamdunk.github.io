@@ -47,13 +47,6 @@
 	position: absolute;
 }
 
-#botplatformboxclose2, #botplatformchatboxclose2 {
-	opacity: 0.5;
-	position: fixed;
-	bottom: 4px;
-	right: 4px;
-}
-
 #botplatformboxclose2:hover, #botplatformchatboxclose2:hover {
 	opacity: 1.0;
 }
