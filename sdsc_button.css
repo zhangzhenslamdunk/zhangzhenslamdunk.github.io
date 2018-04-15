@@ -4,8 +4,10 @@
  */
  
 #botplatformboxbar, #botplatformchatboxbar {
-	width: 108px;
-	height: 72px;
+	width: 121px;
+	height: 86px;
+	/*width: 108px;
+	height: 72px;*/
 	/*padding: 10px;*/
 	/*background-color: transparent;*/
 	/*background-size: 64px;*/
