@@ -183,7 +183,7 @@ span.botplatformchatchat-user-1, span.botplatformchatchat-user-2, span.botplatfo
 .botplatformchatpowered, .botplatformchatpowered a {
  	margin: 4px;
  	color: white;
-	font-size: 10px;
+	font-size: 0px;
 	font-family: Arial, Helvetica, sans-serif;
 }
 img.botplatformchat-user, img.botplatformchatchat-user, img.botplatformframechat-user, img.botplatformframechatchat-user {
