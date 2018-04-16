@@ -4308,12 +4308,14 @@ function WebChatbotListener() {
 			+ "<div id='" + this.prefix + "boxbar' class='" + this.prefix + "boxbar'>"
 				+ "<div id='" + this.prefix + "boxbar2' class='" + this.prefix + "boxbar2'>"
 					+ "<span><a id='" + this.prefix + "boxbarmax' class='" + this.prefix + "boxbarmax' " + " onclick='return false;' href='#'><img id='" + this.prefix + "boxbarmaximage' " + "src='" + SDK.url + "/images/maximizew.png'> " + this.caption + " </a>"
-					+ " <a id='" + this.prefix + "boxclose' class='" + this.prefix + "boxclose' onclick='return false;' onclick='return false;' href='#'> <img src='" + SDK.url + "/images/closeg.png'></a></span><br/>"
+					//+ " <a id='" + this.prefix + "boxclose' class='" + this.prefix + "boxclose' onclick='return false;' onclick='return false;' href='#'> <img src='" + SDK.url + "/images/closeg.png'></a></span><br/>"
+					+ " </span><br/>"
 				+ "</div>";
 		html = html
 				+ "<div id='" + this.prefix + "boxbar3' class='" + this.prefix + "boxbar3'" + ">"
 					+ "<span><a id='" + this.prefix + "boxbarmax2' class='" + this.prefix + "boxbarmax2' " + (this.forceStyles ? "style='color:white' " : "") + " onclick='return false;' href='#'>" + "</a></span><br>"
-					+ " <a id='" + this.prefix + "boxclose2' class='" + this.prefix + "boxclose2' onclick='return false;' onclick='return false;' href='#'> <img src='" + SDK.url + "/images/closeg.png'></a></span><br/>"
+					//+ " <a id='" + this.prefix + "boxclose2' class='" + this.prefix + "boxclose2' onclick='return false;' onclick='return false;' href='#'> <img src='" + SDK.url + "/images/closeg.png'></a></span><br/>"
+					+ " </span><br/>"
 				+ "</div>\n"
 			+ "</div>\n";
 		
