@@ -32,6 +32,7 @@
 }
 */
 
+/*
 #botplatformchatboxbarmax2 {
 	left: 1px;
 	bottom: 1px;
@@ -39,12 +40,13 @@
 	width: 95px;
 	position: absolute;
 }
+*/
 
 #botplatformboxbar2 {
 	display: none;
 }
 
-/*
+
 #botplatformboxbarmax2 {
 	left: 0px;
 	bottom: 0px;
@@ -52,4 +54,4 @@
 	width: 95px;
 	position: absolute;
 }
-*/
+
