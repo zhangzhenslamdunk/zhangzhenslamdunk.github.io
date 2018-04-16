@@ -318,11 +318,15 @@ span.botplatformframechat-user-1, span.botplatformframechat-user-2 {
     float: right;
     margin-top: -4px;
 }
+
+/*
 .botplatformboxclose:hover, .botplatformchatboxclose:hover, .botplatformcontactboxmin:hover,
 .botplatformchatcontactboxmin:hover, .botplatformboxmin:hover, .botplatformchatboxmin:hover, .botplatformboxmax:hover, .botplatformchatboxmax:hover {
 	color: #fff;
 	background: grey;
 }
+*/
+
 .botplatformframeno-bubble, .botplatformno-bubble, .botplatformchatno-bubble {
 	margin: 4px;
 	padding: 8px;
