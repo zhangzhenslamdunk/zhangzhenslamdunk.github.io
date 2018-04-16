@@ -304,14 +304,14 @@ span.botplatformframechat-user-1, span.botplatformframechat-user-2 {
 	visibility: visible;
 }
 
-/*
+
 .botplatformboxclose, .botplatformchatboxclose, .botplatformboxmin, .botplatformchatboxmin, .botplatformboxmax, .botplatformchatboxmax {
 	font-size: 22px;
     margin: 2px 0px 2px 2px;
     text-decoration: none;
     padding: 0px 2px 0px 1px;
 }
-*/
+
 
 #botplatformcontactboxmin, #botplatformchatcontactboxmin {
 	padding: 4px 4px 1px 4px;
@@ -319,13 +319,13 @@ span.botplatformframechat-user-1, span.botplatformframechat-user-2 {
     margin-top: -4px;
 }
 
-/*
+
 .botplatformboxclose:hover, .botplatformchatboxclose:hover, .botplatformcontactboxmin:hover,
 .botplatformchatcontactboxmin:hover, .botplatformboxmin:hover, .botplatformchatboxmin:hover, .botplatformboxmax:hover, .botplatformchatboxmax:hover {
 	color: #fff;
 	background: grey;
 }
-*/
+
 
 .botplatformframeno-bubble, .botplatformno-bubble, .botplatformchatno-bubble {
 	margin: 4px;
