@@ -20,6 +20,7 @@
 	display: none;
 }
 
+/*
 .botplatformboxbar3, .botplatformchatboxbar3 {
 	display: inline;
 }
@@ -27,6 +28,7 @@
 #botplatformchatboxbar3 {
 	height: inherit;
 }
+*/
 
 #botplatformchatboxbarmax2 {
 	left: 1px;
