@@ -2126,6 +2126,7 @@ function WebLiveChatListener() {
 					+ "<span><a id='" + this.prefix + "boxbarmax' class='" + this.prefix + "boxbarmax' " + " onclick='return false;' href='#'><img id='" + this.prefix + "boxbarmaximage' " + "src='" + SDK.url + "/images/maximizew.png'> " + this.caption + " </a>";
 		if (this.showClose) {
 			//html = html + " <a id='" + this.prefix + "boxclose' class='" + this.prefix + "boxclose' onclick='return false;' href='#'> <img src='" + SDK.url + "/images/closeg.png'></a>";
+			html = html + " <a id='" + this.prefix + "boxclose' class='" + this.prefix + "boxclose' onclick='return false;' href='#'> </a>";
 		}
 		html = html
 				+ "</span><br>"
@@ -2135,6 +2136,7 @@ function WebLiveChatListener() {
 				+ "</span><br>";
 		if (this.showClose) {
 			//html = html + " <a id='" + this.prefix + "boxclose2' class='" + this.prefix + "boxclose2' onclick='return false;' href='#'> <img src='" + SDK.url + "/images/closeg.png'></a>";
+			html = html + " <a id='" + this.prefix + "boxclose2' class='" + this.prefix + "boxclose2' onclick='return false;' href='#'> </a>";
 		}
 		html = html
 			+ "</div>\n"
