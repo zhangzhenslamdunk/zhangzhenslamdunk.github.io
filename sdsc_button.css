@@ -4,8 +4,8 @@
  */
  
 #botplatformboxbar, #botplatformchatboxbar {
-	width: 96px;
-	height: 60px;
+	width: 95px;
+	height: 59px;
 	/*width: 108px;
 	height: 72px;*/
 	/*padding: 10px;*/
@@ -41,8 +41,8 @@
 }
 
 #botplatformboxbarmax2 {
-	left: 1px;
-	bottom: 1px;
+	left: 0px;
+	bottom: 0px;
 	height: 59px;
 	width: 95px;
 	position: absolute;
