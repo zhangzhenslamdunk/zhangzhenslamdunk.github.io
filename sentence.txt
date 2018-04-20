@@ -1,0 +1,1 @@
+this text is obtained from an external txt file.
