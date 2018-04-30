@@ -274,6 +274,51 @@ function toggle0() {
 	
 	
 	
+	
+	
+	
+<!-- code below for my own chatbot frame -->	
+<!-- code below for my own chatbot frame -->	
+<!-- code below for my own chatbot frame -->
+<img id="d0"  onclick="toggle0()"  src="SDSC.png"  class="img1"/>
+<iframe   id="i0"   class="example1" 
+    width="350"
+    height="430"
+    src="https://console.dialogflow.com/api-client/demo/embedded/2c7456b4-10fe-4207-9219-ad9289dcdda6">
+</iframe>	
+
+<script>
+iHeight = document.getElementById("i0").height	
+</script>
+
+<script>
+var x = document.getElementById("i0");
+x.style.display = "none";
+	
+function toggle0() {
+    var x = document.getElementById("i0");
+    if (x.style.display == "block") {
+       x.style.display = "none";
+	document.getElementById("i0").height="0"
+	document.getElementById("d0").style.visibility = "visible"
+    } else {
+       x.style.display = "block";
+	document.getElementById("d0").style.visibility = "visible"
+	document.getElementById("i0").height=iHeight
+	document.getElementById("i0").focus();
+    }
+}
+</script>	
+<!-- code above for my own chatbot frame -->
+<!-- code above for my own chatbot frame -->	
+<!-- code above for my own chatbot frame -->
+	
+	
+	
+	
+	
+	
+	
 <!--	
 <link href="https://snatchbot.me/sdk/webchat.css" rel="stylesheet" type="text/css">
 <script src="https://snatchbot.me/sdk/webchat.min.js"></script>
