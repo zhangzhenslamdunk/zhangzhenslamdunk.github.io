@@ -6,7 +6,7 @@ nlp = window.nlp_compromise;
 var messages = [], //array that hold the record of each string in chat
   lastUserMessage = "", //keeps track of the most recent input string from the user
   botMessage = "", //var keeps track of what the chatbot is going to say
-  botName = 'Singapore Data ', //name of the chatbot
+  botName = 'Singapore Data Science Consortium', //name of the chatbot
   talking = true; //when false the speach function doesn't work
 //
 //
