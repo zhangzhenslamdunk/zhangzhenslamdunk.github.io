@@ -42,7 +42,7 @@ body {
 #chatbox {
   font: 17px arial, sans-serif;
   height: 22px;
-  width: 100%;  //default: 100%
+  width: 22px;  //default: 100%
 }
 
 h1 {
