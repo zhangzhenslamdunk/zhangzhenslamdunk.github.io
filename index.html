@@ -16,6 +16,20 @@
     left: 120px;
     bottom: 10px;
 }
+
+	
+.img2 {
+    position: fixed;
+    left: 310px;
+    bottom: 10px;
+}
+	
+.example2 {
+    position: fixed;
+    left: 420px;
+    bottom: 10px;
+}
+	
 </style>
 	
 <body>
@@ -280,32 +294,32 @@ function toggle0() {
 <!-- code below for my own chatbot frame -->	
 <!-- code below for my own chatbot frame -->	
 <!-- code below for my own chatbot frame -->
-<img id="d0"  onclick="toggle0()"  src="SDSC.png"  class="img1"/>
-<iframe   id="i0"   class="example1" 
+<img id="d11"  onclick="toggle11()"  src="SDSC.png"  class="img2"/>
+<iframe   id="i11"   class="example2" 
     width="350"
     height="430"
     src="https://console.dialogflow.com/api-client/demo/embedded/2c7456b4-10fe-4207-9219-ad9289dcdda6">
 </iframe>	
 
 <script>
-iHeight = document.getElementById("i0").height	
+iHeight = document.getElementById("i11").height	
 </script>
 
 <script>
-var x = document.getElementById("i0");
+var x = document.getElementById("i11");
 x.style.display = "none";
 	
-function toggle0() {
-    var x = document.getElementById("i0");
+function toggle11() {
+    var x = document.getElementById("i11");
     if (x.style.display == "block") {
        x.style.display = "none";
-	document.getElementById("i0").height="0"
-	document.getElementById("d0").style.visibility = "visible"
+	document.getElementById("i11").height="0"
+	document.getElementById("d11").style.visibility = "visible"
     } else {
        x.style.display = "block";
-	document.getElementById("d0").style.visibility = "visible"
-	document.getElementById("i0").height=iHeight
-	document.getElementById("i0").focus();
+	document.getElementById("d11").style.visibility = "visible"
+	document.getElementById("i11").height=iHeight
+	document.getElementById("i11").focus();
     }
 }
 </script>	
