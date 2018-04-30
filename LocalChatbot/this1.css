@@ -44,6 +44,7 @@ body {
 }
 
 #chatbox {
+  position: fixed;
   font: 17px arial, sans-serif;
   height: 22px;
   width: 98%;
