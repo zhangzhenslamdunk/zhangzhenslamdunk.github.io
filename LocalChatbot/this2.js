@@ -19,7 +19,7 @@ var messages = [], //array that hold the record of each string in chat
 //****************************************************************
 //edit this function to change what the chatbot says
 function chatbotResponse() {
-  talking = true;
+  talking = false;
   //botMessage = "I'm confused"; //the default message
   botMessage = "Thanks for your interest! Singapore Data Science Consortium (SDSC) is the key platform in Singapore for industry to access the latest data science technologies, applications, and expertise from the academia to create innovative solutions that solve real-world challenges. For more information, please visit our website http://sdsc.sg/ or contact us at sdsc AT nus DOT edu DOT sg";
 
