@@ -45,10 +45,10 @@ body {
 
 #chatbox {
   position: fixed;
-  bottom: 50px;
+  bottom: 0px;
   font: 17px arial, sans-serif;
   height: 22px;
-  width: 98%;
+  width: 330px;
  
   margin-bottom: 0px;
   margin-left: 0px;
