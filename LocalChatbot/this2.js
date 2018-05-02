@@ -55,6 +55,7 @@ function newEntry() {
     //messages.push("<b>You: </b>" + lastUserMessage);
     
     // from heroku
+    /*
     var xhr = new XMLHttpRequest()
     xhr.open('POST', 'https://tryherokubotlibre.herokuapp.com/webhook', true)
     xhr.setRequestHeader('Accept', 'application/vnd.heroku+json; version=3')
@@ -69,7 +70,7 @@ function newEntry() {
         var myObj = JSON.parse(xhr);
         document.getElementById("demo").innerHTML = xhr.status;
      }
-
+    */
     messages.push("okokok");
     // from heroku
     
