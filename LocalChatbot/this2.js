@@ -60,7 +60,13 @@ function newEntry() {
     xhr.open('POST', 'https://tryherokubotlibre.herokuapp.com/webhook', true);
     xhr.setRequestHeader('Accept', 'application/vnd.heroku+json; version=3');
     xhr.send();
-    var result = JSON.parse(xhr.response).fulfillmentText;
+    //var result = JSON.parse(xhr.response).fulfillmentText;
+    
+    xhr.onload = function() { 
+    console.log(JSON.parse(xhr.response).fulfillmentText.toString());
+    alert(JSON.parse(xhr.response).fulfillmentText.toString())
+    };
+    
     //JSON.parse(xhr.response).fulfillmentText.toString()
     /*
     var result = xhr.response
@@ -73,7 +79,7 @@ function newEntry() {
      }
      */
     
-    messages.push(result);
+    messages.push("ok fine thanks");
     // from heroku
     
     //Speech(lastUserMessage);  //says what the user typed outloud
