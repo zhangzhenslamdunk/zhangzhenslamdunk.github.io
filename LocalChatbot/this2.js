@@ -56,11 +56,11 @@ function newEntry() {
     
     // from heroku
     
-    var xhr = new XMLHttpRequest()
-    xhr.open('POST', 'https://tryherokubotlibre.herokuapp.com/webhook', true)
-    xhr.setRequestHeader('Accept', 'application/vnd.heroku+json; version=3')
-    xhr.send()
-    var result = JSON.parse(xhr.response)
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', 'https://tryherokubotlibre.herokuapp.com/webhook', true);
+    xhr.setRequestHeader('Accept', 'application/vnd.heroku+json; version=3');
+    xhr.send();
+    var result = JSON.parse(xhr.response);
     
     /*
     var result = xhr.response
