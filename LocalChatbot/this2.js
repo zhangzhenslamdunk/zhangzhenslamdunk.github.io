@@ -55,12 +55,14 @@ function newEntry() {
     //messages.push("<b>You: </b>" + lastUserMessage);
     
     // from heroku
-    /*
+    
     var xhr = new XMLHttpRequest()
     xhr.open('POST', 'https://tryherokubotlibre.herokuapp.com/webhook', true)
     xhr.setRequestHeader('Accept', 'application/vnd.heroku+json; version=3')
     xhr.send()
-
+    var result = JSON.parse(xhr.response)
+    
+    /*
     var result = xhr.response
     xhr.onload = function() { console.log(this.status) }
     xhr.onerror = function(err) { console.error(err) }
@@ -69,8 +71,9 @@ function newEntry() {
         var myObj = JSON.parse(xhr);
         document.getElementById("demo").innerHTML = xhr.status;
      }
-    */
-    messages.push("ok ok ok");
+     */
+    
+    messages.push(result.fulfillmentText);
     // from heroku
     
     //Speech(lastUserMessage);  //says what the user typed outloud
