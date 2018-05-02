@@ -58,7 +58,8 @@ function newEntry() {
     
     var xhr = new XMLHttpRequest();
     xhr.open('POST', 'https://tryherokubotlibre.herokuapp.com/webhook', true);
-    xhr.setRequestHeader('Accept', 'application/vnd.heroku+json; version=3');
+    xhr.setRequestHeader('Accept', 'application/json');
+    xhr.setRequestHeader('Access-Control-Allow-Origin','*');
     xhr.send();
     //var result = JSON.parse(xhr.response).fulfillmentText;
     
