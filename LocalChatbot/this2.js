@@ -80,7 +80,7 @@ function newEntry() {
      }
      */
     
-    messages.push("ok fine thanks");
+    messages.push("debug1");
     // from heroku
     
     //Speech(lastUserMessage);  //says what the user typed outloud
