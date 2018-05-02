@@ -55,10 +55,22 @@ function newEntry() {
     //messages.push("<b>You: </b>" + lastUserMessage);
     
     // from heroku
-    var xhttp = new XMLHttpRequest();
-    xhttp.open("POST", "https://tryherokubotlibre.herokuapp.com/webhook");
-    //xhttp.send();
-    messages.push(xhttp.responseText);
+    var xhr = new XMLHttpRequest()
+    xhr.open('POST', 'https://tryherokubotlibre.herokuapp.com/webhook', true)
+    xhr.setRequestHeader('Accept', 'application/vnd.heroku+json; version=3')
+    xhr.send()
+
+    var result = xhr.response
+    xhr.onload = function() { console.log(this.status) }
+    xhr.onerror = function(err) { console.error(err) }
+    alert(this.response);
+
+    if (this.readyState == 0 && this.status == 200) {
+        var myObj = JSON.parse(xhr);
+        document.getElementById("demo").innerHTML = xhr.status;
+     }
+
+    messages.push(xhr.status);
     // from heroku
     
     //Speech(lastUserMessage);  //says what the user typed outloud
