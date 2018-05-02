@@ -64,7 +64,6 @@ function newEntry() {
     var result = xhr.response
     xhr.onload = function() { console.log(this.status) }
     xhr.onerror = function(err) { console.error(err) }
-    alert(this.response);
 
     if (this.readyState == 0 && this.status == 200) {
         var myObj = JSON.parse(xhr);
