@@ -71,7 +71,7 @@ function newEntry() {
         document.getElementById("demo").innerHTML = xhr.status;
      }
     */
-    messages.push("okokok");
+    messages.push("ok ok ok");
     // from heroku
     
     //Speech(lastUserMessage);  //says what the user typed outloud
