@@ -70,6 +70,7 @@ function newEntry() {
       //alert(JSON.parse(xhr.response).fulfillmentText.toString());
       toshow = JSON.parse(xhr.response).fulfillmentText.toString();
       console.log(toshow);
+      messages.push(toshow);
       messages.push("inside onload function");
     };
     xhr.send();
