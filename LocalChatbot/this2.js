@@ -10,7 +10,7 @@ var messages = [], //array that hold the record of each string in chat
   talking = false; //when false the speach function doesn't work
 
 //debug
-var toshow = "not assigned value yet";
+var toshow = "not assigned value yeeeeeet";
 //debug
 
 //
