@@ -66,8 +66,10 @@ function newEntry() {
     var toshow = "not assigned value yet";
     xhr.onload = function() { 
       console.log(JSON.parse(xhr.response).fulfillmentText.toString());
+      
       alert(JSON.parse(xhr.response).fulfillmentText.toString());
       toshow = JSON.parse(xhr.response).fulfillmentText.toString();
+      console.log(toshow);
       messages.push("inside onload function");
     };
     messages.push("outside onload function");
