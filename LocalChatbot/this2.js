@@ -72,6 +72,7 @@ function newEntry() {
     };
     messages.push("outside onload function");
     messages.push(toshow);
+    console.log("good good good");
     //JSON.parse(xhr.response).fulfillmentText.toString()
     /*
     var result = xhr.response
