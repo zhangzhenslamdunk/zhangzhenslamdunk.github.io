@@ -63,13 +63,15 @@ function newEntry() {
     xhr.setRequestHeader('Access-Control-Allow-Origin','*');
     xhr.send();
     //var result = JSON.parse(xhr.response).fulfillmentText;
-    
+    var toshow = "not assigned value yet";
     xhr.onload = function() { 
       console.log(JSON.parse(xhr.response).fulfillmentText.toString());
-      alert(JSON.parse(xhr.response).fulfillmentText.toString())
-      messages.push("debug888");
+      alert(JSON.parse(xhr.response).fulfillmentText.toString());
+      toshow = JSON.parse(xhr.response).fulfillmentText.toString();
+      messages.push("inside onload function");
     };
-    
+    messages.push("outside onload function");
+    messages.push(toshow);
     //JSON.parse(xhr.response).fulfillmentText.toString()
     /*
     var result = xhr.response
