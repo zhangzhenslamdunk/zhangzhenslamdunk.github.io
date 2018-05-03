@@ -75,6 +75,7 @@ function newEntry() {
     xhr.send();
     messages.push("outside onload function");
     messages.push(toshow);
+    console.log(toshow);
     console.log("good good good");
     console.log(toshow);
     //JSON.parse(xhr.response).fulfillmentText.toString()
@@ -102,7 +103,7 @@ function newEntry() {
     
     //debug
     messages.push(toshow);
-    console.log(toshow);
+    
     //debug
     
     Speech(botMessage);
