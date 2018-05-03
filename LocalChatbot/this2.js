@@ -72,22 +72,18 @@ function newEntry() {
     xhr.onload = function() { 
       if (xhr.readyState === 4) {
     if (xhr.status === 200) {
-      console.log(JSON.parse(xhr.response).fulfillmentText.toString());
+      //console.log(JSON.parse(xhr.response).fulfillmentText.toString());
       
       //alert(JSON.parse(xhr.response).fulfillmentText.toString());
       toshow = JSON.parse(xhr.response).fulfillmentText.toString();
-      console.log(toshow);
-      messages.push(toshow);
-      messages.push("inside onload function");
+      console.log("inside onload " + toshow);
     }
       }
     };
     xhr.send();
-    messages.push("outside onload function");
     messages.push(toshow);
-    console.log(toshow);
-    console.log("good good good");
-    console.log(toshow);
+    console.log("outside onload " + toshow);
+
     //JSON.parse(xhr.response).fulfillmentText.toString()
     /*
     var result = xhr.response
@@ -111,10 +107,6 @@ function newEntry() {
     messages.push("<b>" + botName + ":</b> " + botMessage);
     // says the message using the text to speech function written below
     
-    //debug
-    messages.push(toshow);
-    
-    //debug
     
     Speech(botMessage);
     //outputs the last few array elements of messages to html
@@ -151,10 +143,6 @@ function keyPress(e) {
     //runs this function when enter is pressed
     newEntry();
     
-    //debug
-    messages.push(toshow);
-    console.log(toshow);
-    //debug
     
   }
   if (key == 38) {
