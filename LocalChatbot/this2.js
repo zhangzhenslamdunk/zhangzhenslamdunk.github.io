@@ -75,6 +75,7 @@ function newEntry() {
     messages.push("outside onload function");
     messages.push(toshow);
     console.log("good good good");
+    console.log("toshow");
     //JSON.parse(xhr.response).fulfillmentText.toString()
     /*
     var result = xhr.response
@@ -97,7 +98,12 @@ function newEntry() {
     //add the chatbot's name and message to the array messages
     messages.push("<b>" + botName + ":</b> " + botMessage);
     // says the message using the text to speech function written below
+    
+    //debug
     messages.push(toshow);
+    console.log("toshow");
+    //debug
+    
     Speech(botMessage);
     //outputs the last few array elements of messages to html
     for (var i = 1; i < 8; i++) {
