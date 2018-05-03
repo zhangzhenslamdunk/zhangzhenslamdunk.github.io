@@ -8,6 +8,11 @@ var messages = [], //array that hold the record of each string in chat
   botMessage = "", //var keeps track of what the chatbot is going to say
   botName = 'Singapore Data Science Consortium', //name of the chatbot
   talking = false; //when false the speach function doesn't work
+
+//debug
+var toshow = "not assigned value yet";
+//debug
+
 //
 //
 //****************************************************************
@@ -63,7 +68,7 @@ function newEntry() {
     xhr.setRequestHeader('Access-Control-Allow-Origin','*');
     //xhr.send();
     //var result = JSON.parse(xhr.response).fulfillmentText;
-    var toshow = "not assigned value yet";
+    //var toshow = "not assigned value yet";
     xhr.onload = function() { 
       console.log(JSON.parse(xhr.response).fulfillmentText.toString());
       
@@ -141,6 +146,11 @@ function keyPress(e) {
   if (key == 13 || key == 3) {
     //runs this function when enter is pressed
     newEntry();
+    
+    //debug
+    messages.push(toshow);
+    //debug
+    
   }
   if (key == 38) {
     console.log('hi')
