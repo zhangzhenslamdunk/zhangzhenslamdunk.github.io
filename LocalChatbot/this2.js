@@ -65,8 +65,8 @@ function newEntry() {
     //var result = JSON.parse(xhr.response).fulfillmentText;
     
     xhr.onload = function() { 
-    console.log(JSON.parse(xhr.response).fulfillmentText.toString());
-    alert(JSON.parse(xhr.response).fulfillmentText.toString())
+    //console.log(JSON.parse(xhr.response).fulfillmentText.toString());
+    //alert(JSON.parse(xhr.response).fulfillmentText.toString())
     };
     
     //JSON.parse(xhr.response).fulfillmentText.toString()
@@ -81,7 +81,8 @@ function newEntry() {
      }
      */
     
-    messages.push("debug777");
+    messages.push(JSON.parse(xhr.response).fulfillmentText.toString());
+    //messages.push("debug888");
     // from heroku
     
     //Speech(lastUserMessage);  //says what the user typed outloud
