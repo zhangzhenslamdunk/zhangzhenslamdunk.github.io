@@ -65,8 +65,8 @@ function newEntry() {
     //var result = JSON.parse(xhr.response).fulfillmentText;
     
     xhr.onload = function() { 
-    //console.log(JSON.parse(xhr.response).fulfillmentText.toString());
-    //alert(JSON.parse(xhr.response).fulfillmentText.toString())
+      console.log(JSON.parse(xhr.response).fulfillmentText.toString());
+      alert(JSON.parse(xhr.response).fulfillmentText.toString())
       messages.push("debug888");
     };
     
