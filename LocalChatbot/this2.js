@@ -57,7 +57,8 @@ function newEntry() {
     // from heroku
     
     var xhr = new XMLHttpRequest();
-    xhr.open('POST', 'https://tryherokubotlibre.herokuapp.com/webhook', true);
+    //xhr.open('POST', 'https://tryherokubotlibre.herokuapp.com/webhook', true);
+    xhr.open('POST', 'http://4afb4cc9.ngrok.io/webhook', true);
     xhr.setRequestHeader('Accept', 'application/json');
     xhr.setRequestHeader('Access-Control-Allow-Origin','*');
     xhr.send();
