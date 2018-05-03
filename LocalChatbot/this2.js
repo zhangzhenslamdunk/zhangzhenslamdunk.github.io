@@ -70,6 +70,8 @@ function newEntry() {
     //var result = JSON.parse(xhr.response).fulfillmentText;
     //var toshow = "not assigned value yet";
     xhr.onload = function() { 
+      if (xhr.readyState === 4) {
+    if (xhr.status === 200) {
       console.log(JSON.parse(xhr.response).fulfillmentText.toString());
       
       //alert(JSON.parse(xhr.response).fulfillmentText.toString());
@@ -77,6 +79,8 @@ function newEntry() {
       console.log(toshow);
       messages.push(toshow);
       messages.push("inside onload function");
+    }
+      }
     };
     xhr.send();
     messages.push("outside onload function");
