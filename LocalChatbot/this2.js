@@ -61,7 +61,7 @@ function newEntry() {
     xhr.open('POST', 'https://4afb4cc9.ngrok.io/webhook', true);
     xhr.setRequestHeader('Accept', 'application/json');
     xhr.setRequestHeader('Access-Control-Allow-Origin','*');
-    xhr.send();
+    //xhr.send();
     //var result = JSON.parse(xhr.response).fulfillmentText;
     var toshow = "not assigned value yet";
     xhr.onload = function() { 
@@ -72,6 +72,7 @@ function newEntry() {
       console.log(toshow);
       messages.push("inside onload function");
     };
+    xhr.send();
     messages.push("outside onload function");
     messages.push(toshow);
     console.log("good good good");
