@@ -67,7 +67,7 @@ function newEntry() {
     xhr.onload = function() { 
       console.log(JSON.parse(xhr.response).fulfillmentText.toString());
       
-      alert(JSON.parse(xhr.response).fulfillmentText.toString());
+      //alert(JSON.parse(xhr.response).fulfillmentText.toString());
       toshow = JSON.parse(xhr.response).fulfillmentText.toString();
       console.log(toshow);
       messages.push("inside onload function");
