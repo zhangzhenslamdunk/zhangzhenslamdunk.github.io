@@ -67,6 +67,7 @@ function newEntry() {
     xhr.onload = function() { 
     //console.log(JSON.parse(xhr.response).fulfillmentText.toString());
     //alert(JSON.parse(xhr.response).fulfillmentText.toString())
+      messages.push("debug888");
     };
     
     //JSON.parse(xhr.response).fulfillmentText.toString()
@@ -81,7 +82,7 @@ function newEntry() {
      }
      */
     
-    messages.push(JSON.parse(xhr.response).fulfillmentText.toString());
+    //messages.push(JSON.parse(xhr.response).fulfillmentText.toString());
     //messages.push("debug888");
     // from heroku
     
