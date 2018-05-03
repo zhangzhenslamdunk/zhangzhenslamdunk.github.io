@@ -149,6 +149,7 @@ function keyPress(e) {
     
     //debug
     messages.push(toshow);
+    console.log(toshow);
     //debug
     
   }
