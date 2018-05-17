@@ -4,7 +4,7 @@
  */
  
 #botplatformboxbar, #botplatformchatboxbar {
-	width: 100px; /*96*/
+	width: 105px; /*96*/
 	height: 72px; /*59*/
 	
 	/* original image size*/
@@ -55,7 +55,7 @@
 	left: 0px;
 	bottom: 0px;
 	height: 72px; /*59*/
-	width: 100px;/*96*/
+	width: 105px;/*96*/
 	position: absolute;
 }
 
